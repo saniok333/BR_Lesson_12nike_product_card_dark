@@ -1,0 +1,97 @@
+main {
+  /* background: url(../img/main-bg.jpg) 50% no-repeat; */
+  background: url(../img/main-bg.jpg) no-repeat center top;
+  background-size: cover;
+  display: flex;
+  height: 600px;
+}
+
+/* box-shadow: 0 0 65px rgba(0, 0, 0, 0.82); */
+
+main > .main-container {
+  width: 686px;
+  height: 391px;
+  box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+  border-radius: 10px;
+  background-color: #111a28;
+  margin: auto;
+  display: flex;
+}
+
+main > .main-container > .left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 0 23px 36px;
+}
+
+main > .main-container > .left-container > .logo {
+  margin-left: -15px;
+  align-self: flex-start;
+}
+
+main > .main-container > .right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 78px 0 0 79px;
+  justify-content: start;
+}
+
+main > .main-container > .right-container > h1 {
+  color: #e1e1e1;
+  font-family: "Museo Sans Rounded -100";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+  margin: 0;
+}
+
+main > .main-container > .right-container > p {
+  opacity: 0.54;
+  color: #e1e1e1;
+  font-family: "Museo Sans Rounded -100";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.28px;
+  margin: 0;
+  padding-top: 6px;
+}
+
+main > .main-container > .right-container > .stars {
+  padding-top: 16px;
+}
+
+main > .main-container > .right-container > form > .sel {
+  padding-top: 37px;
+}
+
+main > .main-container > .right-container > form > .sel > select {
+  width: 69px;
+  height: 32px;
+  opacity: 0.26;
+  background-color: #111a28;
+  font-family: "Museo Sans Rounded -100";
+  border: 1px solid #ffffff;
+  color: #e1e1e1;
+  text-align: center;
+  padding: 0 8px 0;
+}
+
+main > .main-container > .right-container > form > button {
+  width: 184px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: #4c525a;
+  opacity: 0.26;
+  color: #e1e1e1;
+  font-family: "Museo Sans Rounded -100";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.28px;
+  margin-top: 30px;
+}
